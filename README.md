@@ -1,17 +1,13 @@
-metakermit's ~/.*
-=================
+# metakermit's dotfiles ~/.*
 
-After looking at the many
-[interesting dotfile solutions](http://dotfiles.github.io/),
-I decided to go the build-your-own-lightsaber road after all. So here goes…
+After looking at the many [interesting dotfile solutions](http://dotfiles.github.io/), I decided to go the build-your-own-lightsaber road after all. So here goes…
 
-Installation
-------------
+## Installation
 On a clean Ubuntu machine, do:
 
     wget -O - https://raw.githubusercontent.com/metakermit/dotfiles/master/meta/install-linux.sh | bash
 
-In OS X do:
+On macOS do:
 
     bash <(curl -s https://raw.githubusercontent.com/metakermit/dotfiles/master/meta/install-mac.sh)
 
@@ -22,23 +18,20 @@ in Ubuntu just do:
 
 or on a Mac:
 
-    ./meta/instal-mac.sh
+    ./meta/install-mac.sh
 
-TODO:
-----
+## TODO
 
-- store kermit-location inside the scripts folder
-- k script prefix with tab-completed subcommands - argparse+genzshcomp,
-  OptionParser or trollop
-- move additionally () to separate file (too custom to my preferences)
-- install essential programs platform-independently
+- [ ] Store kermit-location inside the scripts folder
+- [ ] Add k script prefix with tab-completed subcommands (argparse+genzshcomp, OptionParser or trollop)
+- [ ] Move additional customizations to separate file (too custom to my preferences)
+- [ ] Install essential programs platform-independently
 
-Changelog
----------
+## Changelog
 
-- add emacs config metakermit/kermit-emacs
-- install script - something like http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/
+- Add emacs config [metakermit/kermit-emacs](https://github.com/metakermit/kermit-emacs)
+- Install script inspired by [this tutorial](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/)
 
-Thanks!
--------
-meta/install.sh - https://github.com/holman/dotfiles/blob/master/script/bootstrap
+## Credits
+
+- meta/install.sh inspired by [holman/dotfiles bootstrap script](https://github.com/holman/dotfiles/blob/master/script/bootstrap)
