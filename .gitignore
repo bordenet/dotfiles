@@ -8,3 +8,7 @@ atom.symlink/storage
 atom.symlink/.apm/.apmrc
 atom.symlink/blob-store
 .apm
+
+
+#Ignore vscode AI rules
+.github/instructions/codacy.instructions.md
